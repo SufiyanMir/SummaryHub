@@ -1,0 +1,235 @@
+/* Login Page */
+body{
+    margin: 0;
+    height: 100vh;
+}   
+.login .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background: #bebcba;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.login .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+}
+.login .text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+.login .underline{
+    width: 61px;
+    height: 6px;
+    background:#3c009d ;
+    border-radius: 9px;
+}
+.login .inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.login .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.input img{
+    margin:0px 30px ;
+}
+.login .input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+.login .SubmitContainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.login .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login .gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+.login .gray:hover{
+  background: #6e746db1;
+  
+}
+
+/* Home Page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5ba13;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  width: 100%; 
+  box-sizing: border-box; /
+}
+
+.navbar-brand {
+  color: #fff;
+  margin: 0; 
+  font-family: "McLaren", cursive;
+  font-weight: 300;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.user-text {
+  margin: auto 50px;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.container {
+  margin: auto auto;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+#url {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.summ-button{
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-toggle {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition:  0.3s ease;
+}
+
+.btn-toggle svg {
+  margin-left: 5px;
+}
+
+.btn-toggle:hover {
+  background-color: #5a6268;
+}
+
+
+.card {
+  border-radius: 10px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+button:focus {
+  outline: none;
+}
