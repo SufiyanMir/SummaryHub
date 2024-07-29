@@ -3,4 +3,5 @@ requests
 beautifulsoup4
 transformers
 sentencepiece
+torch 
 tensorflow
